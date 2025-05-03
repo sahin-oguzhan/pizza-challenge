@@ -28,35 +28,41 @@ html, body {
 .logo img {
   width: 20vw;
   height: auto;
+  margin: 2vw 0;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1vw
+}
+
+.slogan-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30vw;
+  font-family: "Roboto Condensed";
+  font-size: 4vw;
+  line-height: 3.5vw;
 }
 
 .slogan-small {
-  margin-top: 2vw;
-  font-size: 2vw;
   font-family: "Satisfy";
   color: #FDC913;
+  font-size: 2vw;
 }
 
-.slogan-main,
-.slogan-main2 {
-  font-size: 4vw;
-  font-family: "Roboto Condensed";
-}
-
-.slogan-main2 {
-  margin-bottom: 1vw;
-}
-
-.buton {
+.button {
   background-color: #FDC913;
-  padding: 0.5vw 3vw;
-  border-radius: 1.6vw;
-}
-
-.buton p {
-  font-size: 1vw;
+  border-radius: 2vw;
   color: black;
+  padding: 0.5vw 2vw;
+  font-size: 1vw;
+  font-weight: bold;
   font-family: "Barlow";
+  width: 10vw;
 }
 
 .menu {
@@ -155,6 +161,7 @@ html, body {
   align-items: center;
   text-align: center;
   justify-content: center;
+  border-color: white;
 }
 
 .right-card-top {
@@ -297,61 +304,108 @@ nav .pizza {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  justify-content: center;
+  background-color: #1A1A1A;
+  margin-top: 2vw;
+}
+
+.main-top {
+  display: flex;
+  margin: 5vw 20vw;
+  height: 20vw;
 }
 
 .left-side {
-  border: 1px solid purple;
   color: white;
+  width: 30vw;
+  height: auto;
 }
 
 .left-side img {
-  width: 30%;
+  width: 60%;
+  height: auto;
+  margin-bottom: 20%;
 }
 
+.left-side ul, .mid ul {
+  margin: 0;
+  padding: 0;
+}
 
 .left-side li {
   display: flex;
   justify-content: left;
-  gap: 1vw;
-  font-size: 2vw;
+  align-items: center;
+  line-height: 1.3vw;
   list-style: none;
   font-family: "Barlow";
-  font-size: 1vw;
+  font-size: 1.2vw;
   margin: 1vw 0;
 }
 
 .left-side li img {
-  width: 10%;
+  width: 1.5vw;
   height: auto;
-  margin: 0 auto;
+  margin: 0vw 1vw;
 }
 
 .mid {
   color: white;
+  width: 30vw;
+  font-family: "Barlow";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 10%;
+  margin-top: 10%;
+  gap: 1vw;
+}
+
+.mid p {
+  font-size: 1.5vw;
 }
 
 .mid li {
   list-style: none;
+  font-size: 1vw;
+  line-height: 2.5vw;
 }
 
 .right-side {
   color: white;
   display: flex;
   flex-direction: column;
+  width: 70%;
+  justify-content: space-around;
+  text-align: start;
+  
+}
+
+.right-text {
+  font-family: "Barlow";
+  font-size: 2vw;
 }
 
 .insta-img {
   display: flex;
   flex-wrap: wrap;
-  width: 45;
+  gap: 0.5vw;
 }
 
 .insta-img img{
   width: 30%;
 }
 
-.main-top {
-  border: 1px solid purple;
+.main-bottom {
   display: flex;
+  color: white;
+  justify-content:space-around;
+  text-align: center;
+  align-items: center;
+  font-family: "Barlow";
+  font-size: 0.7vw;
+  border-top: 0.1px solid #5F5F5F;
+  height: 5vw;
+
 }
+
