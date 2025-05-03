@@ -260,9 +260,9 @@ nav .pizza {
 }
 
 .pizza-card1 img , .pizza-card2 img , .pizza-card3 img {
-  width: 100%;
+  width: 80%;
   height: auto;
-  margin: 1vw auto;
+  margin: 2vw auto;
 }
 
 .pizza-card1 , .pizza-card2 , .pizza-card3 {
@@ -271,9 +271,87 @@ nav .pizza {
   background-color: white;
 }
 
-.terminal {
+.pizza-text {
   display: flex;
   justify-content: left;
-  font-size: 2vw;
+  font-size: 1.2vw;
+  font-family: "Barlow";
+  font-weight: bold;
+  margin: 0.5vw 1vw;
 }
 
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Barlow";
+  font-size: 1vw;
+  margin: 0 1vw;
+}
+
+.price span {
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.left-side {
+  border: 1px solid purple;
+  color: white;
+}
+
+.left-side img {
+  width: 30%;
+}
+
+
+.left-side li {
+  display: flex;
+  justify-content: left;
+  gap: 1vw;
+  font-size: 2vw;
+  list-style: none;
+  font-family: "Barlow";
+  font-size: 1vw;
+  margin: 1vw 0;
+}
+
+.left-side li img {
+  width: 10%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.mid {
+  color: white;
+}
+
+.mid li {
+  list-style: none;
+}
+
+.right-side {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.insta-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45;
+}
+
+.insta-img img{
+  width: 30%;
+}
+
+.main-top {
+  border: 1px solid purple;
+  display: flex;
+}
