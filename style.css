@@ -12,13 +12,12 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  text-align: center;
+  width: 100vw;
+  height: 100vw;
+  
   color: white;
   margin-top: 1vw;
 }
@@ -63,7 +62,6 @@
   align-items: center;
   width: 100vw;
   padding: 2vw;
-  max-width: 55vw;
   margin: 0 auto;
 }
 
@@ -84,7 +82,80 @@
   color: black;
 }
 
-.icons img{
-  width: 2vw;
+.icons img {
+  width: 2.8vw;
 }
+
+.card {
+  padding-top: 3vw;
+  display: flex;
+  height: auto;
+  gap: 0.3vw;
+  width: 55vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.left-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5vw;
+}
+
+.card1 {
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.card2 , .card3 {
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.left-card-text {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  color: white;
+  text-align: left;
+  width: 15vw;
+  height: 13vw;
+  text-align: left;
+  padding: 2vw 1vw;
+  line-height: 4vw;
+  row-gap: 2vw;
+}
+
+.left-card-text p {
+  font-family: "Quattrocento", serif;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.left-card-text button {
+  width: 7vw;
+  height: 3vw;
+  font-size: 0.7vw;
+  border-radius: 2vw;
+  color: red;
+  font-family: "Barlow";
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.right-card-top, .right-card-bot {
+  position: absolute;
+  width: 15vw;
+  height: 10vw;
+}
+
+
 
